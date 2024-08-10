@@ -1,4 +1,6 @@
+import 'package:firebase_test_3/screens/inspection_page.dart';
 import 'package:firebase_test_3/screens/login_page.dart';
+import 'package:firebase_test_3/screens/profile_page.dart';
 import 'package:firebase_test_3/screens/signup_page.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -21,6 +23,16 @@ final router = GoRouter(
       path: '/signuppage',
       pageBuilder: (context, state) =>
           MaterialPage(child: SignupPage()),
+    ),
+    GoRoute(
+      path: '/profilepage',
+      pageBuilder: (context, state) =>
+          MaterialPage(child: ProfilePage()),
+    ),
+    GoRoute(
+      path: '/inspectionpage',
+      pageBuilder: (context, state) =>
+          MaterialPage(child: InspectionPage()),
     ),
   ],
 );
