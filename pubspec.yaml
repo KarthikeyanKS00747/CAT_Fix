@@ -24,3 +24,27 @@ flutter:
   assets:
   - assets/construction_login_image.jpeg
   - assets/CAT_Icon.jpg
+  - assets/Text.svg
+  - assets/Analysis_donut.svg
+  - assets/half_star.svg
+  - assets/home.svg
+  - assets/home1.png
+  - assets/mic.svg
+  - assets/support_agent.svg
+  - assets/mail.svg
+  - assets/call.svg
+  - assets/sound.svg
+  - assets/pause.svg
+  - assets/headphones.svg
+  - assets/note.svg
+  - assets/add_photo.svg
+  - assets/image.svg
+  - assets/voice.svg
+  - assets/wheel.svg
+  - assets/settings.svg
+  - assets/brake.svg
+  - assets/machine.svg
+  - assets/battery.svg
+  - assets/map.svg
+
+  
