@@ -57,11 +57,8 @@ class InspectionInput extends StatelessWidget {
                           ),
                         ),
                         IconButton.filled(
-                          onPressed: showDialog(
-                            context: context,
-                            builder: Dialog()
-                          ), 
-                          icon: I
+                          onPressed: (){},
+                          icon: Icon(Icons.abc)
                           )
                       ],
                     ),
